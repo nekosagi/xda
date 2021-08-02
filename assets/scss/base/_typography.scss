@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Old+Standard+TT:wght@400;700&family=Raleway:wght@400;700&display=swap');
+
+body{
+    font-family: $primary;
+    font-size: $medium;
+}
+
+.nav {
+    &__icon {
+        font-family: $secondary;
+        font-size: $xx-large;
+        color: $white !important;
+    }
+
+    &__list {
+        font-weight: 700;
+    }
+
+    &__hamburger {
+        font-size: $xx-large;
+    }
+}
+
+.section{
+    &__tittle{
+        font-family: $secondary;
+        font-size: $xxx-large;
+        font-weight: 700;
+    }
+    
+    &__text{
+        color: $granite_gray;
+        line-height: $xx-large;
+    }
+}
+
+.footer{
+    font-family: $secondary;
+
+    &__tittle {
+        font-size: $xx-large;
+    }
+
+    &__label{
+        font-size: $large;
+    }
+
+    &__subs {
+        font-family: $secondary;
+        font-weight: 700;
+        font-size: $x-large;
+        text-align: center;
+    }
+}
+
+

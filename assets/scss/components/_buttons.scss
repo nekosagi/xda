@@ -1,0 +1,16 @@
+.button{
+    background-color: $white;
+    border: 1px solid $smoky_black;
+    padding: 12px 30px;
+    font-weight: 700;
+    font-size: $large;
+
+    &:hover {
+        border: 1px solid $light_gray;
+    }
+
+    &:focus{
+        border: 1px solid $light_gray;
+        color: $light_gray;
+    }
+}

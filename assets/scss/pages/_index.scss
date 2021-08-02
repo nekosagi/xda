@@ -1,0 +1,22 @@
+.section{
+    &__img {
+        background-image: url("../img/imagen1.png");
+        width: 100%;
+        background-position: 0 35%;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+    &__tittle{
+        margin-top: 0;
+        margin-bottom: 10px;
+    }
+
+    &__content {
+        padding: 55px 80px;
+    }
+
+    &__text {
+        width: 65%;
+    }
+}

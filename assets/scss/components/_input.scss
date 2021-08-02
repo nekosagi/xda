@@ -1,0 +1,10 @@
+.input-text{
+    padding: 10px;
+    width: 65%;
+    border: 1px solid $smoky_black;
+    border-radius: 0;
+
+    &::placeholder{
+        color: $smoky_black;
+    }   
+}

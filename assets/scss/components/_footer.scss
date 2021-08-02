@@ -1,0 +1,22 @@
+.footer{
+    background-color: $smoky_black;
+    color: $white;
+    position: relative;
+    padding: 0 80px;
+
+    &__label {
+        display: block;
+        margin-bottom: 10px;
+    }
+
+    &__subs {
+        background-color: $white;
+        color: $smoky_black;
+        writing-mode: vertical-rl;
+        position: absolute;
+        top: 0;
+        right: 0;
+        height: 100%;
+        padding:  0 12px ;
+    }
+}

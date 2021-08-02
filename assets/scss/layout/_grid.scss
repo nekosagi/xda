@@ -1,0 +1,31 @@
+.section{
+    display: grid;
+    grid-template-columns: 43% 57%;
+
+    &__img{
+        grid-row: 1/5;
+        grid-column-start: 2;
+    }
+
+    .footer {
+        grid-row: span 3;
+    }
+
+    @include responsive($mediumdev){
+        grid-template-columns: 1fr;
+        grid-template-rows: 1.5fr 1.8fr 1fr;
+
+        &__img{
+            grid-column: span 1;
+            grid-row: span 1;
+            grid-column-start: 1;
+        }  
+    }
+
+    @include responsive($smalldev) {
+        grid-template-rows: 1.2fr 2fr 1fr;
+    }
+}
+
+
+
